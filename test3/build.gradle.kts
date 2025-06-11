@@ -7,6 +7,10 @@ plugins {
     `maven-publish`
 }
 
+dependencyLocking {
+    lockAllConfigurations()
+}
+
 repositories {
     mavenLocal()
     maven {
